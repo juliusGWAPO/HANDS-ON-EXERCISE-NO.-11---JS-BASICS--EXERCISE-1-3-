@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+body {
+    color: #000;
+    margin: 20px;
+    background-color: #fff;
+}
+.header {
+    margin-bottom: 1.6rem;
+}
+
+.form-group {
+    line-height: 1.6;
+}
+
+.form-group .input-f {
+    margin-left: .8rem;
+}
+
+.form-group .input-l {
+    margin-left: .9rem;
+}
+
+.btn {
+    margin-left: 5.6rem;
+    padding: 0.2rem;
+}
+
+.btn button {
+    padding: .5px 5px .5px 5px;
+    cursor: pointer;
+}
+
+.result {
+    margin-top: .8rem;
+    
+}
+
+.result .result-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.result .result-group .dFullName {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 0.1rem;
+}

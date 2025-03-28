@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/styles.css">
+    <title>JS Exercise 2</title>
+</head>
+
+
+<body>
+    <header>
+        <h1 class="header">JS Exercise 2</h1>
+    </header>
+    <main>
+        <section>
+            <div>
+                <form id="form">
+
+
+                    <div class="form-group">
+                        <label for="firstName">First Name:</label>
+                        <input type="text" value="" id="firstName" class="input-f" name="firstName" required>
+                        <br>
+                        <label for="middleName">Midlle Name:</label>
+                        <input type="text" value="" id="middleName" class="input-m" name="middleName" required>
+                        <br>
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" value="" id="lastName" class="input-l" name="lastName" required>
+
+                    </div>
+
+                    <div class="btn">
+                        <button type="submit">Generate Fullname</button>
+                        <button type="reset" id="reset">Clear Entries</button>
+                    </div>
+
+                </form>
+
+
+                <div class="result">
+
+                    <div class="result-group">
+                        <p>Full Name:</p>
+                        <p class="dFullName" id="fullName"></p>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="./function/index.js"></script>
+</body>
+
+</html>

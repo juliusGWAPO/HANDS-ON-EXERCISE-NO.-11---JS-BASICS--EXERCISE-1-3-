@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/styles.css">
+    <title>JS Exercise 1</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="header">JS Exercise 1</h1>
+    </header>
+    <main>
+        <section>
+            <div>
+                <form id="calc-form">
+
+
+                    <div class="form-group">
+                        <label for="firstNumber">Enter First Number:</label>
+                        <input type="text" value="" id="firstNumber" class="input" name="firstNumber" required>
+                        <br>
+                        <label for="secondNumber">Enter Second Number:</label>
+                        <input type="text" value="" id="secondNumber" name="secondNumber" required>
+
+                    </div>
+
+                    <div class="btn">
+                        <button type="submit">Calculate</button>
+                        <button type="reset" id="reset">Clear</button>
+                    </div>
+
+                </form>
+
+
+                <div class="result">
+
+                    <div class="result-group">
+                        <p>Summ:</p>
+                        <p class="total-s" id="sum"></p>
+
+                    </div>
+                    
+                    <div class="result-group">
+                        <p>Difference:</p>
+                        <p class="total-d" id="diff"></p>
+                    </div>
+
+                    <div class="result-group">
+                        <p>Product:</p>
+                        <p class="total-p" id="prod"></p>
+                    </div>
+
+                    <div class="result-group">
+                        <p>Quotient:</p>
+                        <p class="total-q" id="qou"></p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="./function/index.js"></script>
+</body>
+
+</html>

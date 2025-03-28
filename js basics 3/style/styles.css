@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+body {
+    color: #000;
+    margin: 20px;
+    background-color: #fff;
+}
+.header {
+    margin-bottom: 1.6rem;
+}
+
+.form-group {
+    line-height: 1.6;
+}
+
+.form-group .input-f {
+    margin-left: .8rem;
+}
+
+.form-group .input-l {
+    margin-left: .9rem;
+}
+
+
+.btn button {
+    margin: 1rem 0 .6rem 0;
+    padding: .5px 5px .5px 5px;
+    cursor: pointer;
+}
+
+.result-container {
+    margin-top: .8rem;
+}
+
+.result-container .result-group{
+    margin-bottom: .8rem;
+}
+
+.result-group .dNumbers {
+    margin: 1rem 0 1rem 0;
+    font-family: 'sans-serif';
+}
+
+.result-container .result{
+    display: flex;
+}
+
+.result .dSum{
+    margin-left: .2rem;
+    color: blue;
+}
+
+.result .dHighest{
+    margin-left: .2rem;
+    color: green;
+}
+
+.result .dLowest{
+    margin-left: .2rem;
+    color: red;
+}
